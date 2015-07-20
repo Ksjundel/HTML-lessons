@@ -1,0 +1,84 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма</title>
+</head>
+<body bgcolor="white" text="black">
+	<form action="">
+		<table>
+			<tr>
+				<td align="right">E-mail</td>
+				<td>
+					<input type="text" name="email">
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Пароль</td>
+				<td>
+					<input type="password" name="pass">
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Я с рождения</td>
+				<td>
+					<input type="radio" name="gender" value="1" id="g1"><label for="g1"> мужчина </label>
+					<input type="radio" name="gender" value="2" id="g2"><label for="g2"> женщина </label>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Я знаю</td>
+				<td>
+					<label><input type="checkbox" name="lang" value="1" checked disabled>русский</label><br>
+					<label><input type="checkbox" name="lang" value="2">французкий</label><br>
+					<label><input type="checkbox" name="lang" value="3">английский</label><br>
+					<label><input type="checkbox" name="lang" value="4">немецкий</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Страна проживания</td>
+				<td>
+					<!-- select -->
+					<select name="country" size="7">
+						<option value="Ukrain">Украина</option>
+						<option value="Rassia">Россия</option>
+						<option value="England">Англия</option>
+						<option value="USA">США</option>
+						<option value="Germany">Германия</option>
+						<option value="Vietnam">Въетнам</option>
+						<option value="Australia">Австралия</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Год рождения</td>
+				<td>
+					<!-- select -->
+					<select name="born" size="7">
+						<option value="1988">1988</option>
+						<option value="1989">1989</option>
+						<option value="1990">1990</option>
+						<option value="1991">1991</option>
+						<option value="1992">1992</option>
+						<option value="1993">1993</option>
+						<option value="1994">1994</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Обо мне</td>
+				<td>
+					<!-- textarea -->
+					<textarea cols="50" rows="3"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"></td>
+				<td>
+					<input type="submit" value="Готово">
+					<button type="reset">Измена</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+ </html>
